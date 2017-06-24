@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mercury Tours Suite">
+
+<listeners>
+    <listener class-name="ErrorCollectors.TestListenerAdapter" />
+</listeners>
+
+<test name="Login test">
+    <classes>
+        <class name="POM_TestCases.LoginTest" ></class>
+    </classes>
+</test>
+
+<!-- <test name="Select Flight test">
+    <classes>
+        <class name="POM_TestCases.SelectFlightTest" ></class>
+    </classes>
+</test> -->
+</suite>
